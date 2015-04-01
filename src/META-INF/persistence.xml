@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="test" transaction-type="RESOURCE_LOCAL">
+        <class>Main</class>
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/sakila"/>
+            <property name="javax.persistence.jdbc.user" value="User"/>
+            <property name="javax.persistence.jdbc.password" value="User"/>
+        </properties>
+    </persistence-unit>
+</persistence>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="HOLLYWOOD:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/HOLLYWOOD_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="HOLLYWOOD/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HOLLYWOOD" />
+        </element>
+      </element>
+      <element id="gwt-compiler-output" facet="HOLLYWOOD/gwt/GWT" />
+    </root>
+  </artifact>
+</component>
