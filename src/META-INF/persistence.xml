@@ -7,6 +7,7 @@
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/sakila"/>
             <property name="javax.persistence.jdbc.user" value="User"/>
             <property name="javax.persistence.jdbc.password" value="User"/>
+
         </properties>
     </persistence-unit>
 </persistence>
