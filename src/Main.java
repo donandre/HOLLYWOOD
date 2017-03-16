@@ -1,4 +1,5 @@
 import org.hibernate.Session;
+//import org.hibernate.*;
 
 public class Main {
     public static void main(final String[] args){
@@ -6,6 +7,7 @@ public class Main {
         Session session = HibernateUtil.getSessionFactory().openSession();
         session.beginTransaction();
         System.out.println("Is connected = " + session.isConnected());
+
         session.close();
         System.out.println("Is connected = "+session.isConnected());
     }
